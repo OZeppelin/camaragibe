@@ -1,0 +1,142 @@
+/* 
+    Document   : css_formulario
+    Created on : 08/11/2012, 15:35:04
+    Author     : sbezerra
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.h2 {
+    color: black;
+    font-family: monospace;
+    font-variant: normal;
+    font-size: 20px;
+   
+        
+   
+}
+.h4 {
+    color: black;
+    font-family: monospace;
+    font-variant: normal;
+    font-size: 16px;
+   
+        
+   
+}
+
+
+p {
+    color: black;
+    font-size: 14px;
+   
+   
+}
+
+root { 
+    display: block;
+}
+
+body
+{
+margin: 0 auto;
+padding: 0;
+color: #000000;
+background-color: #FFFFFF;
+background-size:100% 100%;
+background-repeat: repeat ;
+background-attachment: fixed;
+background-position: top left;
+height: 100%;
+position: absolute;
+width: 100%;
+z-index: -7;
+margin: 0
+}
+
+div.plano_de_fundo{
+  
+  /* margin: 0 auto;*/
+  background-color: #FFFFFF;   
+border:  activeborder dotted 0px;
+  margin:0% 0% 0% 0%; /*top, right, botton, left*/
+  padding: 10px 10px 10px 10px; /**/
+  
+  width: 672px; 
+  height: 100%;
+  overflow:hidden;
+
+  top: 0px;
+  right: 0px;
+  bottom: 20px;
+  left: 300px; /* posiciona a 22% em rela��o ao body para a esquerda */
+  
+  
+  
+  position: absolute;
+  background-repeat: repeat;
+  
+
+}
+div.logo{
+    
+  margin:0% 0% 0% 0%; /*top, right, botton, left*/
+  border:  activeborder dotted 0px;
+  padding: 5px 5px 5px 5px; /* borda para o conteudo*/
+  
+  width: 314px; 
+  height: 80px;
+  
+  top: 50px;
+  right: 0px;
+  bottom: 0px;
+  left: 190px; /* posiciona a 22% em rela��o ao body para a esquerda */
+  
+  position: absolute;
+  visibility: visible;
+  
+}
+div.descricao{
+ 
+ margin:0% 0% 0% 0%; /*top, right, botton, left*/
+ border:  activeborder dotted 0px;
+ padding: 3px 3px 3px 3px; /* borda para o conteudo*/
+  
+  width: 500px; 
+  height: 250px;
+  
+  top: 180px;
+  right: 0px;
+  bottom: 0px;
+  left: 100px; /* posiciona a 22% em rela��o ao body para a esquerda */
+  
+  position: absolute;
+  visibility: visible;
+  
+
+  
+}
+
+div.tabela_relatorio{
+    
+  
+  margin:3% 3% 3% 3%; /*top, right, botton, left*/
+  border:  activeborder dotted 0px;
+  padding: 5px 5px 5px 5px; /* borda para o conteudo*/
+  
+  min-width: 500px;
+  min-height: 2000px;
+  width: auto;
+  height:auto;
+  
+  top: 440px;
+  right: 100px;
+  bottom: 0px;
+  left: 80px; /* posiciona a 22% em rela��o ao body para a esquerda */
+  
+  overflow:visible;
+  position: absolute;
+  visibility: visible;
+  
+  
+}
+

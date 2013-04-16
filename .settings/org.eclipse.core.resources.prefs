@@ -1,0 +1,23 @@
+#Thu Feb 21 11:05:13 GMT-03:00 2013
+eclipse.preferences.version=1
+encoding//PhpProject2/index.php=UTF-8
+encoding//cms/aluno=UTF-8
+encoding//cms/classes/application/Util.php=UTF-8
+encoding//cms/classes/models/AlunoDAO.php=UTF-8
+encoding//cms/estabelecimento/processo.php=UTF-8
+encoding//cms/estoque=UTF-8
+encoding//cms/estoque/processo.php=UTF-8
+encoding//cms/includes/menu.php=UTF-8
+encoding//cms/relatorios=UTF-8
+encoding//cms/tipo_estudante/processo.php=UTF-8
+encoding//cms/valor_cartela/editar.php=UTF-8
+encoding//cms/valor_cartela/index.php=UTF-8
+encoding//cms/valor_cartela/inserir.php=UTF-8
+encoding//cms/valor_cartela/processo.php=UTF-8
+encoding//cms/vendas/ajax.php=UTF-8
+encoding//cms/vendas/index.php=UTF-8
+encoding//cms/vendas/inserir.php=UTF-8
+encoding//cms/vendas/processo.php=UTF-8
+encoding//cms/vendas/processo_boleto.php=UTF-8
+encoding/<project>=UTF-8
+encoding/cms=ISO-8859-1

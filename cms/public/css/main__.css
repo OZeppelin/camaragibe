@@ -1,0 +1,262 @@
+﻿/*
+Nome do Tema: 
+URL do Tema: http://
+Autor: seu-nome
+Versão: 0.1
+
+[Tabela de Conteudos] 
+
+	0- Reset
+	1- Global
+	2- Links
+	3- Cabeçalhos
+	4- Cabeçalho 
+	5- Navegação
+	6- Meio 
+	7- Formulários
+	8- Extras
+	9- Rodapé 
+	10- Sprites
+
+*/
+
+/* 0- Reset
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, textarea { margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent;}
+ol, ul {list-style:none;}
+blockquote, q {quotes:none;}
+blockquote:before, blockquote:after, q:before, q:after {content:'';content: none;}
+:focus {outline:0;}
+table {border-collapse: collapse;border-spacing:0;}
+caption, th, td {text-align: left;font-weight:normal;}
+strong {font-weight:bold;}
+em {font-style:italic;}
+
+
+
+
+/* 1- Global
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+body {line-height:1; font:normal 12px Verdana, Helvetica, sans-serif; vertical-align:top; background:#fff url(../images/layout/body.png) repeat-x; color:#636b75;}
+*.right {float:right;}
+*.left {float:left;}
+*.align-left {text-align:left;}
+*.align-right {text-align:right;}
+*.align-center {text-align:center;}
+*.justify {text-align:justify;}
+*.hide {display:none;}
+*.clear {clear:both;}
+*.bold {font-weight:bold;}
+*.italic {font-style:italic;}
+*.underline {border-bottom:1px solid;}
+*.highlight {background:#ffc;}
+*.toloja {float:left;margin-left:40px;width:150px;}
+*.fromloja {float:left;width:150px;}
+*.fupOriginal {width:100px; height:25px; opacity: 0.0;-moz-opacity: 0.0;filter: alpha(opacity=00);font-size:18px;}
+*.btnSalvar {width:132px; height:36px; margin-top:40px; border:none; background-image:url(../images/layout/botoes.png); background-repeat:no-repeat;}
+img.centered {display:block;margin-left: auto;margin-right: auto;}
+img.alignleft {float:left;margin:4px 10px 4px 0;}
+img.alignright {float:right;margin:4px 0 4px 10px;}
+
+#all {position:relative; width:940px; min-height:800px; margin:0 auto; overflow:hidden;}
+
+
+*.clearfix:after {content:"."; display:block; clear:both; visibility:hidden; line-height:0; height:0;}
+*.clearfix {display:block;}
+html[xmlns] .clearfix {display:block;}
+* html .clearfix {height:1%;}
+
+
+
+
+/* 2- Links
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+a:link, a:visited, a:hover, a:active {color:#636b75; text-decoration:none;}
+a:hover {text-decoration:underline;}
+
+
+
+
+/* 3- Cabeçalhos
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+h1, h2, h3, h4, h5 {font-weight:normal; color:#000; margin-bottom:20px;}
+h1 {font-size:2em;}
+h2 {font-size:36px; font-family:Arial, Helvetica, sans-serif;}
+h3 {font-size:1.2em;}
+h4 {font-size:1em;}
+h5 {font-size:0.9em;}
+
+
+
+
+/* 4- Cabeçalho
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+#hd {max-with:800px; height:200px; margin:0 auto; background:url(../images/layout/hd.jpg) no-repeat 110px top; color:#fff; text-align:center;}
+#hd h1 {float:left; width:240px; height:80px; margin:78px 0 0 8px; background-position:0 -36px; text-indent:-1000em;}
+
+#hd .log p, #hd .log p a, #hd .log ul li a {color:#fff;}
+#hd .log {float:right; margin:34px 0 20px 0;}
+#hd .log ul, #hd .log ul li {float:left;}
+#hd .log ul li {margin-right:6px;}
+#hd .log ul li a {text-decoration:underline;}
+#hd .log ul li a:hover {text-decoration:none;}
+#hd .log ul {margin-left:5px;}
+#hd .log p {float:left;}
+#hd .log p a {text-decoration:underline;}
+#hd .log p a.user {color:#00b4ff; text-decoration:none;}
+#hd .log p a.user:hover {text-decoration:underline;}
+
+#hd .busca {float:right; *width:555px;}
+#hd .busca legend {display:none;}
+#hd .busca .cl, #hd .busca .cr, #hd .busca .ct {float:left;}
+#hd .busca .cl {background-position:left top; padding-left:10px; padding-bottom:28px;}
+#hd .busca .cr {background-position:right top; padding-right:10px;}
+#hd .busca .ct {height:48px; padding:10px 0; background-color:#262626;}
+#hd .busca .ct span {float:left; padding-left:6px;}
+#hd .busca .ct span span {padding-right:6px; padding-left:0; background-position:right top;}
+#hd .busca .ct span span input {width:400px; height:40px; *height:43px; *margin-top:-2px; padding-top:5px; border:0; font-size:30px; background:#fff url(../images/layout/inp-busca.gif) repeat-x;}
+#hd .busca #ok {float:right; width:110px; height:47px; margin-left:10px; border:none; background-position:0 -90px;}
+
+#hd .sombra {position:absolute; width:910px; height:32px; top:200px; left:0;}
+
+
+
+
+/* 5- Navegação
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+#sidebar {float:left; width:25%; min-height:600px; margin-right:30px; margin-bottom:-2000px; padding-bottom:2000px; border-right:1px solid #eaeaea; background:url(../images/layout/sidebar.png) repeat-y right top;}
+#sidebar ul {float:right; width:222px; padding:55px 0 0 0; background-position:-270px -37px;}
+#sidebar ul li {padding:10px 0 10px 25px; border-top:1px solid #fff; border-bottom:1px solid #dcddde; background-position:0 10px;}
+#sidebar ul li.fix {border-top:0;}
+
+.nav {margin-bottom:28px;}
+.nav li {display:inline;}
+.nav li.atual {text-decoration:underline; color:#00b4ff;}
+
+
+
+
+/* 6- Meio
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+#main {float:left; width:650px; padding-top:55px; padding-bottom:60px;}
+#main p {overflow:auto; margin-bottom:20px;}
+
+
+
+
+/* 7- Formulários
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+#main label {display:block; margin-bottom:14px;}
+
+#main .box-inp .tl, 
+#main .box-inp .tr, 
+#main .box-inp .bl, 
+#main .box-inp .br {position:absolute; display:block; width:5px; height:5px; line-height:5px;}
+
+#main .box-inp .tl {top:0; left:0; background-position:top left;}
+#main .box-inp .tr {top:0; right:0; background-position:top right;}
+#main .box-inp .bl {bottom:0; left:0; background-position:bottom left;}
+#main .box-inp .br {bottom:0; right:0; background-position:bottom right;}
+
+#main .box-inp input, 
+#main .box-inp textarea {width:640px; height:30px; padding:5px; font-size:22px; border:1px solid #dfdfdf; vertical-align:middle;}
+#main .box-inp textarea {font:22px Verdana, Helvetica, sans-serif; height:148px; overflow:hidden;} 
+
+#main .box {float:left; width:100%; margin-bottom:40px; padding:10px 0; border-top:1px dotted #dfdfdf; border-bottom:1px dotted #dfdfdf;}
+#main .box div {float:left; width:610px; padding:20px;}
+#main .box div label {display:inline; height:20px; margin:0 10px 0 0; padding-top:4px;}
+#main .box div input {height:15px; padding:2px 5px 5px; font-size:12px; vertical-align:middle;}
+#main .box div input.url {width:246px;}
+#main .box div em {margin-left:10px; line-height:20px;}
+#main .box .div-input-file {width:258px; height:25px; padding:0; background:url(../images/layout/inp-img.png) no-repeat;}
+#main .box .div-input-file #file-original {width:100px; height:25px; opacity: 0.0;-moz-opacity: 0.0;filter: alpha(opacity=00);font-size:18px;}
+#main .box .div-input-falso {margin-top:-20px; _margin-top:-25px; padding:0; background-color:transparent;}
+#main .box .div-input-falso input {height:18px; padding:0; margin-left:5px; border:0;}
+#main .box .lista-imagem {float:left; width:100%; margin-top:12px; padding:10px; background-color:#f3f7fb;}
+#main .box .lista-imagem li {float:left; margin-right:10px;}
+#main .box .lista-imagem li img {display:block; width:178px; height:146px; border:1px solid #dfdfdf; padding:6px; background-color:#fff;}
+
+#main .destaque div {background-color:#f3f7fb;}
+
+#main .bloqueio div {background-color:#fff0f0;}
+#main .bloqueio .data, #main .bloqueio .data li {float:right;}
+#main .bloqueio .data li {margin-bottom:5px;}
+#main .bloqueio .data {width:335px; margin-right:10px; *margin-top:-15px;}
+#main .bloqueio .data input {width:100px;}
+#main .bloqueio .data img {position:absolute; top:3px; right:-18px;}
+#main .bloqueio .data li .box-inp {margin-bottom:15px;}
+#main .light .fix {margin-left:40px;}
+
+/*#main .light, #main .light div {padding-bottom:0;}*/
+#main .light div {padding-left:0; background-color:#fff;}
+#main .light .switch {width:86px; padding:0;}
+#main .light .switch input {height:25px; margin:0 20px;}
+#main .light #fromlojas, #tolojas {width:150px;}
+#tolojas {margin-left:40px;} 
+
+#main .box-inp {position:relative; float:left; margin-bottom:40px;}
+
+#main .secao {float:left; width:242px;}
+#main .tags {float:left; width:400px;}
+#main .tags input {width:392px; height:15px; padding:2px 5px 5px; font-size:12px; vertical-align:middle;}
+#main .tags .box-inp {margin-bottom:10px;}
+#main .tags p a {color:#00b4ff; text-decoration:underline;}
+#main .tags p a:hover {text-decoration:none;}
+*html #main .tags .box-tags {height:178px;}
+#main .tags .box-tags {float:left; width:385px; min-height:178px; padding:10px; background-color:#f3f7fb; color:#636b75;}
+#main .tags .box-tags li {float:left; text-transform:lowercase; text-decoration:underline; margin-right:4px; margin-bottom:5px; font-size:10px;}
+
+#main #salvar {width:132px; height:36px; margin-top:40px; border:none;}
+
+
+
+/* 8- Extra
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+/* 9- Rodapé
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+.master-media {float:left; width:100%; background-color:#ededed; border-top:1px solid #dfdfdf; border-bottom:1px dotted #dfdfdf;}
+.master-media .media {overflow:hidden; width:940px; margin:0 auto;}	
+.master-media .media div {position:relative; height:236px; padding:34px 20px;}
+.master-media .media div p {line-height:16px;}
+.master-media .media div p strong {color:#48affa;}
+.master-media .media div p a {color:#48aff9;}
+.master-media .media div h2 {margin-bottom:10px; font-weight:700; font-size:24px; color:#636b75;}
+.master-media .media div .mais {position:absolute; bottom:20px; display:block; height:26px; text-indent:-1000em;}
+.master-media .media .m1 {float:left; width:300px; margin-left:235px; _margin-left:110px;}
+.master-media .media .m1 address {margin-bottom:15px; font-style:normal;}
+.master-media .media .m1 address strong {display:block; margin-bottom:6px; color:#48affa;}
+.master-media .media .m1 address a {color:#636b75;}
+.master-media .media .m1 .mais {width:125px; background-position:0 -36px;}
+.master-media .media .m2 {float:left; width:325px; background-color:#e4e4e4;}
+.master-media .media .m2 ul li {margin-bottom:8px;}
+.master-media .media .m2 .mais {width:120px; background-position:0 -63px;}
+
+.master-ft {float:left; width:100%; height:60px; margin-top:4px; background-color:#dfdfdf;}
+#ft {width:940px; margin:0 auto;}
+#ft address {margin:26px 0 0 254px; _margin:26px 0 0 240px;}
+
+
+
+
+/* 10- Sprites
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+#sidebar ul li {background-image:url(../images/layout/icons.png); background-repeat:no-repeat;}
+
+#hd .busca .cl, 
+#hd .busca .cr {background-image:url(../images/layout/c-busca.png); background-repeat:no-repeat;}
+
+#hd .busca .ct span {background-image:url(../images/layout/c-inp-busca.gif); background-repeat:no-repeat;}
+
+#main .box-inp .tl, 
+#main .box-inp .tr, 
+#main .box-inp .bl, 
+#main .box-inp .br {background-image:url(../images/layout/c-input.gif); background-repeat:no-repeat;}
+
+#hd .busca #ok,
+#main #salvar,
+.master-media .media div .mais {background-image:url(../images/layout/botoes.png); background-repeat:no-repeat;}
+.botaook {float:right; width:110px; height:47px; margin-left:10px; border:none; background-position:0 -90px;background-image:url(../images/layout/botoes.png); background-repeat:no-repeat;}
+
+#hd h1,
+#hd .sombra,
+#sidebar ul {background-image:url(../images/layout/sprite-a.png); background-repeat:no-repeat;}
